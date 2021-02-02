@@ -1,0 +1,14 @@
+#+TITLE: ol-qf
+
+This package adds support for ~qf~ links to org-mode, which link either to a relevant org-roam node or to the QF database.
+
+* Installation
+
+Put ~ol-qf.el~ on your path, then load it. For example:
+
+#+begin_src elisp
+(use-package ol-qf
+  :ensure nil
+  :demand t
+  :after (org org-roam))
+#+end_src
