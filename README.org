@@ -1,5 +1,7 @@
 #+TITLE: ol-qf
 
+*This package is only of use to its author.*
+
 This package adds support for ~qf~ links to org-mode, which link either to a relevant org-roam node or to the QF database.
 
 * Installation
